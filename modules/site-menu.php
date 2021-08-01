@@ -11,10 +11,10 @@
 		</div>
 
 		<div class="site-nav">
-	 		<a href='?page=home'>Home</a>
-			<a href='?page=kanto'>Kanto</a>
-			<a href='?page=johto'>Johto</a>
-			<a href='?page=hoenn'>Hoenn</a> 			
+	 		<a href='?page=home' class='home'>Home</a>
+			<a href='?page=kanto' class='kanto'>Kanto</a>
+			<a href='?page=johto' class='johto'>Johto</a>
+			<a href='?page=hoenn' class='hoenn'>Hoenn</a> 			
 		</div>
 
 	</inner-column>
