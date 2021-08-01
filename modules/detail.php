@@ -42,6 +42,12 @@
 	</inner-column>
 
 
+<?php } else { ?>
+
+	<h1>Page Not Found</h1>
+	<p>Go back to <a href="?page=home">Home Page</a></p>
+
+
 <?php } ?>
 
 
