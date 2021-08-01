@@ -1,0 +1,169 @@
+
+inner-column {
+	display:  block;
+	width:  min(90%, 400px);
+	margin:  auto;
+}
+
+
+main .loud-voice {
+	padding:  15px;
+	text-align: center;
+	margin-top:  20px;
+}
+
+.regions {
+	padding:  0 20px;
+}
+
+.card {
+	padding:  5px;
+	border-radius:  9px;
+	letter-spacing: 0.1rem;
+	text-align: center;
+	color:  white;
+}
+
+.card + .card {
+	margin-top:  10px;
+}
+
+
+
+.name {
+	padding:  0;
+}
+
+.poke-container {
+	display:  flex;
+	flex-direction: column;
+}
+
+
+.Grass {
+	background-color: var(--green);
+}
+
+
+.Water {
+	background-color: var(--blue);
+
+}
+
+
+.Fire {
+	background-color: var(--red);
+
+
+}
+
+
+poke-card picture {
+	padding:  15px 10px;
+	display:  flex;
+	justify-content: center;
+}
+
+poke-card img {
+	max-height:  250px;
+	max-width:  250px;
+	padding:  15px;
+
+}
+
+
+poke-card {
+	display: block;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.poke-text {
+	padding:  20px;
+	position:  relative;
+	
+}
+
+
+.poke-id {
+	font-family: 'Press Start 2P', cursive;	
+	font-size:  12px;
+	position:  absolute;
+	top:  1.5vw;
+	left:  3vw;
+	color:  #333;
+}
+
+
+.poke-text .name {
+	padding:  10px;
+}
+
+.poke-text .type{
+	display:  inline-block;
+	font-family: 'Press Start 2P', cursive;	
+	font-size:  10px;
+	padding:  15px;
+	margin-top:  5px;
+	border-radius: 10px;
+}
+
+.poke-text .Grass {
+	background-color: green;
+	
+}
+
+.poke-text .Fire {
+	background-color: red;
+	
+}
+
+.poke-text .Water {
+	background-color: dodgerblue;
+	
+}
+
+
+
+li + li {
+	margin-top:  10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
