@@ -1,16 +1,17 @@
 <?php
 
  $id = sprintf("%'03d", $pokemon["id"]);
- $name = $pokemon["name"];
- $type = $pokemon["type"];
- $image = $pokemon["image"];
+ $name = $pokemon["Pokemon"];
+ $type = $pokemon["Type 1"];
+ $image = $pokemon["GIF"];
+ 
    ?>
  
  <a href="?page=detail&pokeID=<?=$id?>" class='card'>
 	<li class='pokemon'>
 	  <poke-card id="<?=$id?>" class='<?=$type?>'> 
 	      <picture> 
-	        <img class='image' src="<?=$image?>"> 
+	        <img loading="lazy" class='image' src="<?=$image?>"> 
 	      </picture> 
 
 	     <div class="poke-text">
