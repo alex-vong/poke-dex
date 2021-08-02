@@ -1,44 +1,34 @@
-<?php include('poke-database.php'); ?>
+
 
 <?php 
+
 	if ( isset($_GET['pokeID']) ) {
 		$pokeID = $_GET['pokeID'];
+		echo $pokeID;
+		
 	}
+		$monstersData = file_get_contents('monster-data.json');
+		$monsters = json_decode( $monstersData, true);
 
-	if ( $pokeID <= 151 ) {
-		foreach ($kanto as $pokemon) { 
-			if ($pokeID == $pokemon['id'] ) {
-				$currentPokemon = $pokemon;
-			} 
-		} 
-	}
 
-	if ( $pokeID > 151 && $pokeID <= 251 ) {
-		foreach ($johto as $pokemon) { 
-			if ($pokeID == $pokemon['id'] ) {
-			$currentPokemon = $pokemon;
-			} 
-		} 
+	foreach ($monsters as $monster) {
+		
+		if ( $monster["id"] == $pokeID ) {
+			$currentMonster = $monster;
 	}
-
-	if ( $pokeID > 251 ) {
-		foreach ($hoenn as $pokemon) { 
-			if ($pokeID == $pokemon['id'] ) {
-			$currentPokemon = $pokemon;
-			} 
-		} 
-	}
+}
 
 
 ?>
 
-<?php if ( isset($currentPokemon) ) { ?>
+<?php if ( isset($pokeID) ) { ?>
 	<inner-column>
-		<h1><?=$currentPokemon['name']?></h1>
+		<h1><?=$currentMonster['Pokemon']?></h1>
 		<picture>
-			<img src='<?=$currentPokemon['image']?>'>
+			<img src='<?=$currentMonster['GIF']?>'>
 		</picture>
-		<p><?=$currentPokemon['description']?></p>
+		<h2><?=$currentMonster['Type 1']?></h2>
+		<p><?=$currentMonster['Description']?></p>
 	</inner-column>
 
 
@@ -47,8 +37,6 @@
 	<h1>Page Not Found</h1>
 	<p>Go back to <a href="?page=home">Home Page</a></p>
 
-
 <?php } ?>
-
 
 
