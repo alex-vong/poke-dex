@@ -1,3 +1,4 @@
+@import 'types.css';
 
 inner-column {
 	display:  block;
@@ -40,23 +41,6 @@ main .loud-voice {
 }
 
 
-.Grass {
-	background-color: var(--green);
-}
-
-
-.Water {
-	background-color: var(--blue);
-
-}
-
-
-.Fire {
-	background-color: var(--red);
-
-
-}
-
 
 poke-card picture {
 	padding:  15px 10px;
@@ -65,8 +49,8 @@ poke-card picture {
 }
 
 poke-card img {
-	max-height:  250px;
-	max-width:  250px;
+	max-height:  200px;
+	max-width:  200px;
 	padding:  15px;
 
 }
@@ -106,21 +90,6 @@ poke-card {
 	padding:  15px;
 	margin-top:  5px;
 	border-radius: 10px;
-}
-
-.poke-text .Grass {
-	background-color: green;
-	
-}
-
-.poke-text .Fire {
-	background-color: red;
-	
-}
-
-.poke-text .Water {
-	background-color: dodgerblue;
-	
 }
 
 
