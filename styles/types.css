@@ -1,0 +1,62 @@
+.Grass {
+	background-color: #4E8234;
+}
+
+
+.Water {
+	background-color: var(--blue);
+
+}
+
+.Fire {
+	background-color: #F08030;
+
+}
+
+.Bug {
+	background-color: #6D7815;
+}
+
+.Normal {
+	background-color: #A8A878 ;
+}
+
+.Poison {
+	background-color: purple;
+}
+
+.Ground {
+	background-color: #E0C068;
+}
+
+.Fighting {
+	background-color: #C03028;
+}
+
+.Ghost {
+	background-color: #705898;
+}
+
+.Flying {
+	background-color: #A890F0;
+}
+
+.Electric {
+	background-color: #F8D030;
+}
+
+.Psychic {
+	background-color: #F85888;
+}
+
+.Rock {
+	background-color: #786824;
+}
+
+.Ice {
+	background-color: #638D8D;
+}
+
+.Dragon {
+	background-color: #7038F8;
+}
