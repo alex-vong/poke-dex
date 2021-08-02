@@ -70,6 +70,7 @@ ol li {
 
 .site-menu img {
 	max-width:  200px;
+
 }
 
 .welcome {
@@ -104,6 +105,18 @@ ol li {
 	display:  block;
 }
 
+
+field {
+	display:  block;
+}
+
+field + field, button {
+	margin-top: 10px;
+}
+
+field :is(lebel, input) {
+	display:  block;
+}
 
 
 
