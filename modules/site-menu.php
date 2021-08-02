@@ -13,8 +13,9 @@
 		<div class="site-nav">
 	 		<a href='?page=home' class='home'>Home</a>
 			<a href='?page=kanto' class='kanto'>Kanto</a>
-			<a href='?page=johto' class='johto'>Johto</a>
-			<a href='?page=hoenn' class='hoenn'>Hoenn</a> 			
+<!-- 			<a href='?page=johto' class='johto'>Johto</a>
+			<a href='?page=hoenn' class='hoenn'>Hoenn</a> -->
+			<a href='?page=create' class='create'>Add</a>  			
 		</div>
 
 	</inner-column>
