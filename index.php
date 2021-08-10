@@ -23,12 +23,7 @@
 			if ($page == 'kanto') {
 				include 'modules/kanto.php';
 			}
-			// if ($page == 'johto') {
-			// 	include 'modules/johto.php';
-			// }
-			// if ($page == 'hoenn') {
-			// 	include 'modules/hoenn.php';
-			// }
+
 			if ($page == 'detail') {
 				include 'modules/detail.php';
 			}
