@@ -1,40 +1,44 @@
+
+.poke-ball {
+	height: 400px;
+	width:  auto;
+}
+
+
 .Grass {
-	background-color: #4E8234;
+ background-image: linear-gradient(to right top, #194a4a, #006456, #097e56, #3e9649, #73ac31);
 }
 
 
 .Water {
-	background-color: var(--blue);
-
+background-image: linear-gradient(to left bottom, #8bc5cd, #73b0ba, #5c9ba7, #438795, #297383);
 }
 
 .Fire {
-	background-color: #F08030;
-
-}
+ background-image: linear-gradient(to right top, #ff4101, #e4380a, #c92f0e, #ae2710, #942010);}
 
 .Bug {
-	background-color: #6D7815;
+ background-image: linear-gradient(to right top, #6bd531, #50bf40, #39a848, #29924b, #217b4a);
 }
 
 .Normal {
-	background-color: #A8A878 ;
+  background-image: linear-gradient(to right top, #83532d, #9d6b38, #b68544, #cea051, #e4bd5e);
 }
 
 .Poison {
-	background-color: purple;
+background-image: linear-gradient(to right top, #a44a8b, #904589, #7c4186, #673d81, #52397b);
 }
 
 .Ground {
-	background-color: #E0C068;
+ background-image: linear-gradient(to right bottom, #b48310, #bd8d14, #c59718, #cda11c, #d5ac20);
 }
 
 .Fighting {
-	background-color: #C03028;
+  background-image: linear-gradient(to left bottom, #ffe6b4, #d9bc8e, #b3946a, #8e6e48, #6a4a29);
 }
 
 .Ghost {
-	background-color: #705898;
+	 background-image: linear-gradient(to right top, #5a4a9c, #5b4085, #583770, #522f5c, #49294a);
 }
 
 .Flying {
@@ -42,21 +46,21 @@
 }
 
 .Electric {
-	background-color: #F8D030;
+ background-image: linear-gradient(to left bottom, #f7e652, #f8d845, #f8c93a, #f7bb30, #f6ac28);
 }
 
 .Psychic {
-	background-color: #F85888;
+  background-image: linear-gradient(to left bottom, #ffee29, #e2c31c, #c29a14, #9f750d, #7b5208);
 }
 
 .Rock {
-	background-color: #786824;
+ background-image: linear-gradient(to left bottom, #b4b49c, #97937f, #7a7363, #5d5549, #413931);
 }
 
 .Ice {
-	background-color: #638D8D;
+background-image: linear-gradient(to left bottom, #bd3162, #bc2f77, #b6348e, #a93da6, #944abd);
 }
 
 .Dragon {
-	background-color: #7038F8;
+background-image: linear-gradient(to right top, #183173, #324d94, #4a6bb7, #628bdb, #7bacff);
 }
